@@ -4,7 +4,7 @@
     "orientation": "portrait",
     "splash": {
       "resizeMode": "contain",
-      "image": "./splash.jpg"
+      "image": "./splash.png"
     }
   }
 }
