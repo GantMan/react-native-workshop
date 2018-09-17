@@ -12,7 +12,7 @@ npm install
 
 ## Run your project
 
-There are Two major ways to run yout Expo projects locally: using EXP, or running it in your Simulator (Xcode or Android Studio, Genymotion...). I recommend installing exp in your cli and login into your account in order to run your project directly into your phone.
+There are Two major ways to run yout Expo projects locally: using EXPO CLI, or running it in your Simulator (Xcode or Android Studio, Genymotion...). I recommend installing exp in your cli and login into your account in order to run your project directly into your phone.
 
 ### using Expo CLI
 
@@ -34,10 +34,11 @@ Happy Coding!
 
 ### Foundation
 
-- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen. You can start coding from this [base Starter](@leanjscom/foundation-starter-example)
+- Go to [Expo Snack](https://snack.expo.io) and create a Screen from Scratch. we recommend you to create the Login Screen. You can start coding from this [base Starter](https://snack.expo.io/@leanjscom/foundation-starter-example)
 - clone this repo and copy and paste your LoginScreen to use it.
 - fix the `TOCScreen` (`scr/Auth/Screens/TOCScreen`) so the user can see the whole content. you need to add something in order for the screen to scroll.
-- go to `src/Timeline/Screens/TimelineNavigator` and complete the Navigator Implementation.
+- go to `src/Timeline/Screens/TimelineScreens` and implement a FlatList for the data that is fetched.
+- create a `TweetItem` component in `src/Timeline/Components` and use it in your FlatList.
 
 
 ### Navigation
@@ -45,6 +46,7 @@ Happy Coding!
 - go to `src/App/Screens/Navigator.js` and create a `SwitchNavigator`. Follow the instructions in the file.
 - in `src/App/Screens/PrivateNavigator`, finish the implementation of the TabNavigator.
 - in `src/Auth/Screens/LoginScreen` implement a navigation to the PRIVATE_SCREEN
+- go to `src/Timeline/Screens/TimelineNavigator` and complete the Navigator Implementation.
 - go to `src/Timeline/Components/TweetDetail.js`. Whenever the user press on top of the header, you need to navigate to the Profile View of that tweet's user. Hint: you are getting a method that you need to call onPress of that header. can you add an `onPress` prop directly to the header ???
 
 ### Animations
