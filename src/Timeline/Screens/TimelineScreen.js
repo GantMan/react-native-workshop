@@ -26,7 +26,11 @@ class TimelineScreen extends React.Component {
   }
 
   handleTweetPress = (id) => {
-    this.props.navigation.navigate({routeName: TWEET_DETAIL_SCREEN, params: { id }});
+    /* - navigate to the tweet detail. Hint: you need to pass
+    a parameter in the navigation.
+
+    documentation: https://reactnavigation.org/docs/en/navigation-prop.html#navigate-link-to-other-screens
+    */
   }
 
   renderItem = ({item}) => <TweetItem item={item} handlePress={() => this.handleTweetPress(item.id)} />

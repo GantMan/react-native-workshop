@@ -1,7 +1,7 @@
 import { createStackNavigator } from "react-navigation";
 
-import LoginScreen from "../Screens/LoginScreen";
-import TOCScreen from "../Screens/TOCScreen";
+import LoginScreen from "./LoginScreen";
+import TOCScreen from "./TOCScreen";
 
 export const LOGIN_SCREEN = "LOGIN_SCREEN";
 export const TOC_SCREEN = "TOC_SCREEN";

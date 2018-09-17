@@ -8,10 +8,16 @@ import { Colors } from '../../Utils'
 const PrivateNavigator = createBottomTabNavigator({
   [MAIN_TIMELINE_SCREEN]: {
     screen: TimelineNavigator,
-    navigationOptions: {
-      title: "Timeline",
-      tabBarIcon: ({focused, tintColor}) => <Feather name="home" size={24} color={focused ? tintColor : "lightgrey" } />
-    }
+    /*
+      - using the `navigationOptions`, specify
+      the title of the page to be "Timeline"
+      - Specify the correspondant key to define the icon for this screen
+      in this TabNavigator (Hint: read the whole file, maybe the solution is somwhere here :P)
+
+      documentation: https://reactnavigation.org/docs/en/bottom-tab-navigator.html
+    */
+   ["WHAT_KEY_SHOULD_I_USE_HERE_?"]: ({focused, tintColor}) => <Feather name="home" size={24} color={focused ? tintColor : "lightgrey" } />
+
   },
   [PROFILE_SCREEN]: {
     screen: ProfileScreen,

@@ -5,4 +5,4 @@ export {
     default as AuthNavigator,
     SIGNUP_SCREEN,
     LOGIN_SCREEN,
-} from './Components/AuthNavigator'
+} from './Screens/AuthNavigator'

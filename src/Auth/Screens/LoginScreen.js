@@ -1,12 +1,10 @@
 import React from "react";
 import { StyleSheet, TouchableOpacity, Text } from "react-native";
-
-import { setUser } from "react-native-authentication-helpers";
 import { Button } from 'react-native-elements'
 import { Title, Screen, PRIVATE_SCREEN, Headline, FormInput } from "../../App";
 import LoginHeader from '../Components/LoginHeader'
 import { Colors } from '../../Utils'
-import { TOC_SCREEN } from "../Components/AuthNavigator";
+import { TOC_SCREEN } from "./AuthNavigator";
 
 class LoginScreen extends React.Component {
   state = {
@@ -15,7 +13,7 @@ class LoginScreen extends React.Component {
   };
 
   login = () => {
-    this.props.navigation.navigate(PRIVATE_SCREEN);
+    // - implement a navigation to the PRIVATE_SCREEN
   };
 
   handleFormChange = ({ key, value }) => this.setState({ [key]: value });
