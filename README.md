@@ -49,7 +49,6 @@ Happy Coding!
 - go to `src/Timeline/Screens/TimelineNavigator` and complete the Navigator Implementation.
 - go to `src/Timeline/Components/TweetDetail.js`. Whenever the user press on top of the header, you need to navigate to the Profile View of that tweet's user. Hint: you are getting a method that you need to call onPress of that header. can you add an `onPress` prop directly to the header ???
 
-
 ### Animations
 
 - Go to [Expo Snack](https://snack.expo.io) and create a simple animation of a circle that changes the scale on `componentDidMount`.
