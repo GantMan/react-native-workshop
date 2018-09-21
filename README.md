@@ -43,3 +43,4 @@ Now go to the branch `introduction` to get Started
 - https://twitter.com/infinite_red
 - https://twitter.com/ChainReactConf
 - https://twitter.com/VladimirNovick
+- https://twitter.com/GantLaborde
